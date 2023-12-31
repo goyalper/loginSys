@@ -1,20 +1,20 @@
 <?php
 // Database connection
 
-if($_SERVER['HTTP_HOST'] == "localhost"){
-        $db_host = "localhost";
-        $db_user = "root";
-        $db_pass = "";
-        $db_name = "googlelogin";
+// if($_SERVER['HTTP_HOST'] == "localhost"){
+//         $db_host = "localhost";
+//         $db_user = "root";
+//         $db_pass = "";
+//         $db_name = "googlelogin";
      
-    }else{
+//     }else{
       
         
         $db_host = "https://auth-db1131.hstgr.io";
         $db_user = "u269692706_Umesh";
         $db_pass = "325202Login";
         $db_name = "u269692706_googlelogin";
-  }
+//   }
 
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
