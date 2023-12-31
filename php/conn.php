@@ -10,7 +10,7 @@
 //     }else{
       
         
-        $db_host = "https://auth-db1131.hstgr.io";
+        $db_host = "localhost";
         $db_user = "u269692706_Umesh";
         $db_pass = "325202Login";
         $db_name = "u269692706_googlelogin";
